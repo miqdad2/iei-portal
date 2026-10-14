@@ -1,0 +1,19 @@
+{
+  "name": "iei-portal",
+  "private": true,
+  "version": "0.1.0",
+  "description": "IEI Kuwait Community Portal - web + mobile + CMS. Design from Portal preview, depth from iei-kuwait-web-source_1.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build:web": "npm run build --workspace=apps/web",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

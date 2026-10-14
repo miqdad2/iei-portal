@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "IEI Kuwait",
+    "slug": "iei-kuwait",
+    "scheme": "ieikuwait",
+    "ios": { "bundleIdentifier": "org.ieikuwait.portal" },
+    "android": { "package": "org.ieikuwait.portal" },
+    "plugins": ["expo-router"]
+  }
+}
